@@ -1,0 +1,135 @@
+
+body { 
+    background: linear-gradient(to left,#2ecc71,#1abc9c)
+     }
+#Box1 {
+    border: 2px solid;
+    width: 800px;
+    height: 700px;
+    position: relative;
+    left: 350px;
+    top: 70px;
+    background-color: white;
+}
+#HUHU {
+    position:absolute;
+    left: 120px;
+    top: 0px ;
+    left: 570px;
+    background-color: white;
+    color: #2ecc71;
+}
+#Thanhdoc {
+    border: 1px solid;
+    width: 100px;
+    height: 750px;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    background-color: #2ecc71;
+}
+.container {
+   width: 90px;
+   height: 650px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.items {
+    width: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#Personal {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 0px;
+    left: 140px;
+    background-color: white;
+}
+
+#h2 {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 40px;
+    background-color: white;
+    color: #2ecc71 ;
+}
+#Name {
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    background-color: white;
+}
+#input-box {
+    width: 600px;
+    height: 50px;
+    border-bottom: 2px solid;
+    background-color: white;
+}
+#input-box input {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    border:none;
+    outline: none;
+    background-color: white;
+}
+#h4 {
+    background-color: white;
+}
+#Birthday {
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 214px;
+    background-color: white;
+}
+#Gender {
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 329px;
+    background-color: white;
+}
+#Email {
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 115px;
+    background-color: white;
+}
+#Pass {
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 230px;
+    background-color: white;
+}
+#button {
+    color: #2ecc71;
+}
+.Chuyendong {
+    width: 100px;
+    height: 50px;
+    border: 2px solid;
+    background-color: #1abc9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 1140px;
+    bottom: 60px;
+    -o-transition-timing-function: ease-in-out;
+}
+.Chuyendong:hover {
+    background-color: #2ecc71;
+    width: 70px;
+    height: 100px;
+}
